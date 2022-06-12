@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="Airport_n <= 2058.0\nmse = 0.0\nsamples = 82461\nvalue = 0.0"] ;
+1 [label="Species_n <= 664.5\nmse = 0.0\nsamples = 69495\nvalue = 0.0"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Operator_n <= 121.5\nmse = 0.0\nsamples = 68356\nvalue = 0.0"] ;
+1 -> 2 ;
+3 [label="mse = 0.0\nsamples = 16453\nvalue = 0.0"] ;
+2 -> 3 ;
+4 [label="mse = 0.0\nsamples = 51903\nvalue = 0.0"] ;
+2 -> 4 ;
+5 [label="Incident Month <= 11.5\nmse = 0.0\nsamples = 1139\nvalue = 0.0"] ;
+1 -> 5 ;
+6 [label="mse = 0.0\nsamples = 1087\nvalue = 0.0"] ;
+5 -> 6 ;
+7 [label="mse = 0.2\nsamples = 52\nvalue = 0.1"] ;
+5 -> 7 ;
+8 [label="Species_n <= 616.5\nmse = 0.0\nsamples = 12966\nvalue = 0.0"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="Operator_n <= 388.5\nmse = 0.0\nsamples = 4007\nvalue = 0.0"] ;
+8 -> 9 ;
+10 [label="mse = 0.0\nsamples = 2209\nvalue = 0.0"] ;
+9 -> 10 ;
+11 [label="mse = 0.0\nsamples = 1798\nvalue = 0.0"] ;
+9 -> 11 ;
+12 [label="Airport_n <= 2221.0\nmse = 0.0\nsamples = 8959\nvalue = 0.0"] ;
+8 -> 12 ;
+13 [label="mse = 0.0\nsamples = 8954\nvalue = 0.0"] ;
+12 -> 13 ;
+14 [label="mse = 0.1\nsamples = 5\nvalue = 0.1"] ;
+12 -> 14 ;
+}
